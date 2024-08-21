@@ -33,7 +33,7 @@ int countConsonantPermutations(const string &str);
      - Total number of consonants: 3.
      - Factorial of 3 is 6. 
      - The consonant `l` is repeated twice. Thus, the number of distinct permutations is calculated by dividing the total permutations by the factorial of the count of `l`, which is 2!.
-     - Thus, distinct permutations = \( \frac{3!}{2!} = \frac{6}{2} = 3 \) distinct permutations for "hll", "lhl", and "llh".
+     - Thus, distinct permutations = ( 3!/2! = 6/2 = 3 ) distinct permutations for "hll", "lhl", and "llh".
 
 2. **Example 2:**
    - **Input:** `"banana"`
@@ -43,7 +43,7 @@ int countConsonantPermutations(const string &str);
      - Total number of consonants: 3.
      - Factorial of 3 is 6.
      - The consonant `n` is repeated twice. Thus, the number of distinct permutations is calculated by dividing the total permutations by the factorial of the count of `n`, which is 2!.
-     - Thus, distinct permutations = \( \frac{3!}{2!} = \frac{6}{2} = 3 \) distinct permutations.
+     - Thus, distinct permutations = ( 3!/2! = 6/2 = 3 ) distinct permutations.
 
 3. **Example 3:**
    - **Input:** `"bookkeeper"`
@@ -54,7 +54,7 @@ int countConsonantPermutations(const string &str);
      - Factorial of 5 is 120.
      - The consonants `k` is repeated twice.
      - Thus, the number of distinct permutations is calculated by dividing the total permutations by the factorial of the count of `k`, which is 2!.
-     - Thus, distinct permutations = \( \frac{5!}{2!} = \frac{120}{2} = 60 \) distinct permutations.
+     - Thus, distinct permutations = ( 5!/2! = 120/2 = 60 ) distinct permutations.
 
 **Notes:**
 - The calculation of permutations should handle both uppercase and lowercase letters distinctly.
